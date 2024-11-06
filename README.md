@@ -1,7 +1,7 @@
 - to run project : `npx react-native start`
 - unzip football.apk.zip to extract the apk then install it.
 - project structure:
-
+```
 |App.tsx  
 |src
 ├── components
@@ -34,4 +34,4 @@
 └── types
     └── index.ts  // define models : Club, Player, PlayerHistory and PlayerStats
 
- 
+ ```
