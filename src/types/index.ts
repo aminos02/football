@@ -1,27 +1,23 @@
-export interface Player{
-    id:number;
-    name:string;
-    age:number;
+export interface Player {
+  id: number;
+  name: string;
+  age: number;
+  history: PlayerHistory[];
 }
-export interface Club{
-    id:number;
-    name:string;
-    logoUrl:string;
-    country:string
-    players:Player[]
-}
-export interface Season {
-    startYear: number;
-    endYear: number;
+export interface Club {
+  id: number;
+  name: string;
+  logoUrl: string;
+  country: string;
 }
 export interface PlayerStats {
-    goals: number;
-    matchesPlayed: number;
+  goals?: number;
+  matchesPlayed?: number;
 }
 
-export interface PlayerHistory{
-    clubId: string;
-    season: Season;
-    number: number;
-    stats: PlayerStats;
+export interface PlayerHistory {
+  clubId: number;
+  seasonYear: number;
+  number: number;
+  stats: PlayerStats;
 }

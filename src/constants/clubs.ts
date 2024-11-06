@@ -7,14 +7,12 @@ export const DummyClubs: Club[] = [
     logoUrl:
       'https://upload.wikimedia.org/wikipedia/fr/3/31/Logo_ASO_Chlef.png',
     country: 'algeria',
-    players: [],
   },
   {
     id: 2,
     name: 'MC Alger',
     logoUrl: 'https://matchpro.lfp.dz/images/uploads/clubs/MCA_logo%20(1).png',
     country: 'Algeria',
-    players: [],
   },
   {
     id: 3,
@@ -22,7 +20,6 @@ export const DummyClubs: Club[] = [
     logoUrl:
       'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Logo_JS_Kabylie.svg/1200px-Logo_JS_Kabylie.svg.png',
     country: 'Algeria',
-    players: [],
   },
   {
     id: 4,
@@ -30,7 +27,6 @@ export const DummyClubs: Club[] = [
     logoUrl:
       'https://upload.wikimedia.org/wikipedia/fr/thumb/d/d1/ES_Sétifienne_logo_2021.png/1200px-ES_Sétifienne_logo_2021.png',
     country: 'Algeria',
-    players: [],
   },
   {
     id: 5,
@@ -38,14 +34,12 @@ export const DummyClubs: Club[] = [
     logoUrl:
       'https://upload.wikimedia.org/wikipedia/fr/3/36/USMA_nouveau_logo_2023.png',
     country: 'Algeria',
-    players: [],
   },
   {
     id: 6,
     name: 'CR Belouizdad',
     logoUrl: 'https://m.forebet.com/images/icons/2694.png',
     country: 'Algeria',
-    players: [],
   },
   {
     id: 7,
@@ -53,7 +47,6 @@ export const DummyClubs: Club[] = [
     logoUrl:
       'https://upload.wikimedia.org/wikipedia/commons/8/84/JSSAOURA_LOGO.png',
     country: 'Algeria',
-    players: [],
   },
   {
     id: 8,
@@ -61,7 +54,6 @@ export const DummyClubs: Club[] = [
     logoUrl:
       'https://upload.wikimedia.org/wikipedia/fr/a/ac/NA_Hussein_Dey_logo.png',
     country: 'Algeria',
-    players: [],
   },
   {
     id: 9,
@@ -69,7 +61,6 @@ export const DummyClubs: Club[] = [
     logoUrl:
       'https://upload.wikimedia.org/wikipedia/commons/f/fc/MC_Oran_-_logo.png',
     country: 'Algeria',
-    players: [],
   },
   {
     id: 10,
@@ -77,14 +68,12 @@ export const DummyClubs: Club[] = [
     logoUrl:
       'https://upload.wikimedia.org/wikipedia/fr/3/31/Logo_ASO_Chlef.png',
     country: 'algeria',
-    players: [],
   },
   {
     id: 11,
     name: 'MC Alger2',
     logoUrl: 'https://matchpro.lfp.dz/images/uploads/clubs/MCA_logo%20(1).png',
     country: 'Algeria',
-    players: [],
   },
   {
     id: 12,
@@ -92,7 +81,6 @@ export const DummyClubs: Club[] = [
     logoUrl:
       'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Logo_JS_Kabylie.svg/1200px-Logo_JS_Kabylie.svg.png',
     country: 'Algeria',
-    players: [],
   },
   {
     id: 13,
@@ -100,7 +88,6 @@ export const DummyClubs: Club[] = [
     logoUrl:
       'https://upload.wikimedia.org/wikipedia/fr/thumb/d/d1/ES_Sétifienne_logo_2021.png/1200px-ES_Sétifienne_logo_2021.png',
     country: 'Algeria',
-    players: [],
   },
   {
     id: 14,
@@ -108,14 +95,12 @@ export const DummyClubs: Club[] = [
     logoUrl:
       'https://upload.wikimedia.org/wikipedia/fr/3/36/USMA_nouveau_logo_2023.png',
     country: 'Algeria',
-    players: [],
   },
   {
     id: 15,
     name: 'CR Belouizdad2',
     logoUrl: 'https://m.forebet.com/images/icons/2694.png',
     country: 'Algeria',
-    players: [],
   },
   {
     id: 16,
@@ -123,7 +108,6 @@ export const DummyClubs: Club[] = [
     logoUrl:
       'https://upload.wikimedia.org/wikipedia/commons/8/84/JSSAOURA_LOGO.png',
     country: 'Algeria',
-    players: [],
   },
   {
     id: 17,
@@ -131,7 +115,6 @@ export const DummyClubs: Club[] = [
     logoUrl:
       'https://upload.wikimedia.org/wikipedia/fr/a/ac/NA_Hussein_Dey_logo.png',
     country: 'Algeria',
-    players: [],
   },
   {
     id: 18,
@@ -139,6 +122,6 @@ export const DummyClubs: Club[] = [
     logoUrl:
       'https://upload.wikimedia.org/wikipedia/commons/f/fc/MC_Oran_-_logo.png',
     country: 'Algeria',
-    players: [],
   },
 ];
+

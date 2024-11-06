@@ -1,19 +1,13 @@
 import React from 'react';
-import {
-  Image,
-  StyleSheet,
-  Text,
-  TouchableHighlight,
-  View,
-} from 'react-native';
+import {Image, StyleSheet, Text, TouchableHighlight, View} from 'react-native';
 
 type ClubItemProps = {
   name: string;
   country: string;
   logoUrl: string;
-  onPress:()=>void;
+  onPress: () => void;
 };
-export const ClubItem = ({name, logoUrl, country,onPress}: ClubItemProps) => {
+export const ClubItem = ({name, logoUrl, country, onPress}: ClubItemProps) => {
   return (
     <TouchableHighlight onPress={onPress}>
       <View style={styles.container}>
@@ -37,7 +31,7 @@ const styles = StyleSheet.create({
   image: {
     width: 50,
     height: 50,
-    objectFit:'contain',
+    objectFit: 'contain',
   },
   description: {
     justifyContent: 'center',

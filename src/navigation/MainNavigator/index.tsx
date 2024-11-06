@@ -10,6 +10,9 @@ export const MainNavigator = () => {
       {Object.entries(mainNavigatorRoutes).map(([name, screen]) => (
         <Stack.Screen
           name={name as keyof MainNavigatorParamList}
+          options={{
+            headerTitle:screen.title,
+          }}
           component={screen.component}
           key={name}
         />
